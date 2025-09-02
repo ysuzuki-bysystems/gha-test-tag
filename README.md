@@ -1,0 +1,2 @@
+- [tags](https://github.com/ysuzuki-bysystems/gha-test-tag/tags)
+- [workflow runs](https://github.com/ysuzuki-bysystems/gha-test-tag/actions/workflows/workflow.yml)
