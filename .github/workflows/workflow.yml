@@ -1,0 +1,13 @@
+on:
+  push:
+    tags:
+      - v*-release
+
+jobs:
+  do-stuff:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo $TAG
+        env:
+          TAG: ${{ github.ref_name }}
